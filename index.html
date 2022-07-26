@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-06</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <article id="m5">
+      <h2>Module 5</h2>
+
+      <ol>
+        <li>
+          <p>Створити простенький калькулятор за допомогою класу.</p>
+          <p>Цей клас буде мати такі методи:</p>
+          <ol>
+            <li>Метод що запитує в користувача 2 числа</li>
+            <li>Метод що додає ці числа</li>
+            <li>Метод що віднімає ці числа</li>
+            <li>Метод що перемножує ці числа</li>
+            <li>Метод що ділить ці числа</li>
+            <li>
+              Метод що виводить результат арефметичної операції на екран в
+              форматі <code> `Результат операції ${value}`</code>
+              <br />
+              цей метод запускаєтьсяв кінці кожного з методів 2-5
+            </li>
+            <li>
+              Метод що додає в калькулятор новий функціонал (Приймає аргументом
+              колбек в якому описаний новий метод)
+            </li>
+            <li>Передати в метод №7 колбек ф-ю що підносить числа в степінь</li>
+            <li>Написати всі методи і перевірити чи вони працюють</li>
+          </ol>
+        </li>
+     <!--    <div id="calc">
+          <input type="number" id="num1" placeholder="Enter a number"/>
+          <select id="operator" >
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+          </select>
+          <input type="number" id="num2" placeholder="Enter a number" />
+          <button id="calc_btn">=</button>
+          <input type="number" id="result" placeholder="Result" />
+      </div> -->
+    <!--   <div class="result">Результат</div>
+      <div class="plus">Прибавить</div>
+      <div class="min">Отнять</div>
+      <div class="mult">Умножить</div>
+      <div class="div">Поделить</div> -->
+<!--       <button class="plus"></button>
+      <button class="minus"></button>
+      <button class="mult"></button>
+      <button class="share"></button>
+      <div class="firstNum"></div>
+      <div class="secondNum"></div>
+      <div class="result"></div> -->
+
+
+        <li>
+          <p>Створити класи Library та Book</p>
+          <ol>
+            <li>
+              Клас Library буде описувати нашу бібліотеку книжок. Всі книжки
+              будуть зберігатися в масиві.
+              <p>Також цей клас буде мати такі методи:</p>
+              <ul>
+                <li>
+                  Метод <strong>buy</strong> - це метод що приймає аргументом
+                  обєкт книги і додає її в бібліотеку якщо її там ще немає. Якщо
+                  книга вже є показує повідомлення що книга вже куплена
+                </li>
+                <li>
+                  Метод <strong>sell</strong> - це метод що приймає аргументом
+                  назву книги і видаляє її з бібліотеки
+                </li>
+                <li>
+                  Метод <strong>addToFavourite</strong> - це метод що приймає
+                  аргументом назву книги і додає обєкт книги в список улюблених
+                </li>
+                <li>
+                  Метод <strong>removeFromFavourite</strong> - це метод що
+                  приймає назву книги і видаляє її з списку улюблених
+                </li>
+                <li>
+                  Гетер <strong>сountFavouriteBooks</strong> - це гетер що
+                  показує кількість книжок що додані в улюблені
+                </li>
+                <li>
+                  Гетер <strong>finishedBook</strong> - це гетер що містить
+                  колекцію всіх прочитаних книжок
+                </li>
+                <li>
+                  Метод <strong>totalCost</strong> - це метод що рахує вартість
+                  всіх книжок в бібліотеці
+                  <br />
+                  <br />
+                </li>
+              </ul>
+            </li>
+            <li>
+              Клас Book буде описувати окрему книгу. Кожна книга це буде обєкт з
+              такими ключами
+              <ul>
+                <li>author</li>
+                <li>title</li>
+                <li>price</li>
+                <li>totalPages</li>
+                <li>currentPage</li>
+              </ul>
+              <p>Також цей клас буде мати такі методи:</p>
+              <ul>
+                <li>
+                  Метод <strong>read</strong> - це метод що приймає кількість
+                  сторінок що було прочитано і міняє значення currentPage
+                </li>
+                <li>
+                  Гетер <strong>bookProgres</strong> - гетер що переводить
+                  кількість прочитаних сторінок в відсотки
+                </li>
+                <li>
+                  Сетер <strong>bookProgres</strong> - сетер що переводить
+                  відсоток прочитаних сторінок в кількість
+                </li>
+              </ul>
+              <p>
+                Клас Book приймає один аргумент - обєкт з парметрами книги. В
+                середині класу використовувати деструктуризацію обєкта
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </article>
+<!-- <script src="/01_06.js"></script> -->
+<!-- <script src="/02_06.js"></script> -->
+<!-- <script src="/03_06.js"></script> -->
+<!-- <script src="/04_06.js"></script> -->
+<!-- <script src="/05_06.js"></script> -->
+<script src="/06_06.js"></script>
+<!-- <script src="/07_06.js"></script> -->
+  </body>
+</html>
